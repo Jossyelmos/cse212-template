@@ -4,7 +4,7 @@ public static class Search {
     public static void Run() {
         Console.WriteLine("{0,15}{1,15}{2,15}{3,15}{4,15}", "n", "sort1-count", "sort2-count", "sort1-time",
             "sort2-time");
-        Console.WriteLine("{0,15}{0,15}{0,15}{0,15}{0,15}", "----------");
+        Console.WriteLine("{0,15}{0,15}{0,15}{0,15}{0,15}", "----------"); 
 
         for (int n = 0; n <= 25000; n += 1000) {
             var testData = Enumerable.Range(0, n).ToArray();
