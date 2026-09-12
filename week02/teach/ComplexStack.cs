@@ -1,4 +1,11 @@
 ﻿public static class ComplexStack {
+    public static void Main() {
+        Console.WriteLine(DoSomethingComplicated("(a == 3 or (b == 5 and c == 6)"));
+
+        Console.WriteLine(DoSomethingComplicated("(students]i].Grade > 80 and students[i].Grade < 90)"));
+
+        Console.WriteLine(DoSomethingComplicated("(robot[id + 1].Execute(.Pass() || (!robot[id * (2 + i)].Alive && stormy) || (robot[id - 1].Alive && lavaFlowing))"));
+    }
     public static bool DoSomethingComplicated(string line) {
         var stack = new Stack<char>();
         foreach (var item in line) {
