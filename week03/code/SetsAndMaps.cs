@@ -174,7 +174,7 @@ public static class SetsAndMaps
 
         if (featureCollection?.Features == null)
         {
-            return [];
+            return Array.Empty<string>();
         }
 
         foreach (var feature in featureCollection.Features)
